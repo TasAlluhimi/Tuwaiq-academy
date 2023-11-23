@@ -1,9 +1,11 @@
 import './App.css'
 import Nav from './component/Nav'
 import Registration from './component/Registration'
-import Title from './component/Title'
-import Footer from './component/Footer'
 import Card from './component/Card'
+import Title from './component/Title'
+// import Footer from './component/Footer'
+
+
 
 function App() {
 
@@ -11,7 +13,7 @@ function App() {
     <>
       <Nav></Nav>
       
-      {/* <Title></Title> */}
+      <Title></Title>
 
       <div className='cards-cont p-5'>
       <Card type="برنامج" title="تهيئة المجموعات الإنتاجية باستخدام Red Hat OpenShift II" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
@@ -34,6 +36,7 @@ function App() {
       {/* <Registration></Registration> */}
 
       {/* <Footer></Footer> */}
+
     </>
   )
 }
