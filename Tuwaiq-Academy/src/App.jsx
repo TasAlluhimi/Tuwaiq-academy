@@ -3,20 +3,37 @@ import Nav from './component/Nav'
 import Registration from './component/Registration'
 import Title from './component/Title'
 import Footer from './component/Footer'
+import Card from './component/Card'
 
 function App() {
 
   return (
     <>
       <Nav></Nav>
-{/*       
-      <Title></Title>
+      
+      {/* <Title></Title> */}
 
-      <Card></Card>
+      <div className='cards-cont p-5'>
+      <Card type="برنامج" title="تهيئة المجموعات الإنتاجية باستخدام Red Hat OpenShift II" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="برنامج" title="بناء واجهة برمجة تطبيقات REST باستخدام Python و Django" place="عن بعد" time="أسبوع " starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="برنامج" title="إدارة خدمات تقنية المعلومات (ITIL)" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
 
-      <Registration></Registration>
+      <Card type="برنامج" title="بناء واجهة برمجة تطبيقات REST باستخدام Python و Django" place="عن بعد" time="أسبوع " starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="معسكر" title="إدارة خدمات تقنية المعلومات (ITIL)" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="معسكر" title="إدارة خدمات تقنية المعلومات (ITIL)" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
 
-      <Footer></Footer> */}
+      <Card type="برنامج" title="بناء واجهة برمجة تطبيقات REST باستخدام Python و Django" place="عن بعد" time="أسبوع " starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="برنامج" title="بناء واجهة برمجة تطبيقات REST باستخدام Python و Django" place="عن بعد" time="أسبوع " starts="11/26/2023" active="التفاصيل"></Card>
+      <Card type="برنامج" title="إدارة خدمات تقنية المعلومات (ITIL)" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="مغلق"></Card>
+
+
+      </div>
+      {/* <Card type="برنامج" title="تهيئة المجموعات الإنتاجية باستخدام Red Hat OpenShift II" place="الرياض" time="الرايض" starts="11/26/2023"></Card>
+      <Card type="برنامج" title="تهيئة المجموعات الإنتاجية باستخدام Red Hat OpenShift II" place="الرياض" time="الرايض" starts="11/26/2023"></Card> */}
+
+      {/* <Registration></Registration> */}
+
+      {/* <Footer></Footer> */}
     </>
   )
 }
