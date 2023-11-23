@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       <Nav></Nav>
-      
       <Title></Title>
+
+      {/* <Title></Title> */}
 
       <div className='cards-cont p-5'>
       <Card type="برنامج" title="تهيئة المجموعات الإنتاجية باستخدام Red Hat OpenShift II" place="الرياض" time="أسبوع واحد" starts="11/26/2023" active="التفاصيل"></Card>
@@ -35,6 +36,7 @@ function App() {
 
       {/* <Registration></Registration> */}
 
+      {/* <Footer></Footer> */}
       {/* <Footer></Footer> */}
 
     </>
