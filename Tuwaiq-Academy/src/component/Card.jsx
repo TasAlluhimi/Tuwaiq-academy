@@ -10,7 +10,7 @@ function Card(props) {
                     <h5 className="card-title">{props.type}</h5>
                     <h5 className="card-title mt-3">{props.title}</h5>
                     
-                    <div className='mt-4' style={{display:"flex", border:'1px solid red'}}>
+                    <div className='mt-4' style={{display:"flex"}}>
                     <div style={{display:"flex"}}>
                         <img className='px-1' width={"30px"} src="https://tuwaiq.edu.sa/icons/location_icon.svg" alt="" />
                         <p className="card-text">{props.place}</p>
@@ -22,7 +22,7 @@ function Card(props) {
                     </div>
                     </div>
 
-                    <div style={{display:"flex", border:'1px solid red', justifyContent:'space-between', alignItems:'center'}}>
+                    <div style={{display:"flex", justifyContent:'space-between', alignItems:'center'}}>
                     <div style={{display:"flex"}}>
                         <img className='px-1' width={"30px"} src="https://tuwaiq.edu.sa/icons/caleander2_icon.svg" alt="" />
                         <p className="card-text">يبدأ في {props.starts}</p>
